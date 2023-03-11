@@ -379,12 +379,12 @@ body{margin-top:20px;
 
 }
 
-section {
+.servicios {
     display: flex;
     flex-wrap: wrap;
   }
   
-  article {
+.servicios2 {
     flex: 1;
     text-align: center;
   }
@@ -427,17 +427,6 @@ section {
     align-items: center;
     justify-content: space-between;
 }
-
-section {
-    display: flex;
-    flex-wrap: wrap;
-  }
-  
-  article {
-    flex: 1;
-    text-align: center;
-    text-decoration: none;
-  }
 
   p{
     text-decoration: none;
