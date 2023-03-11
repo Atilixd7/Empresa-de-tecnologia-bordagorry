@@ -378,11 +378,17 @@ section {
     .navbar-brand{
         display: none;
     }
+    form{
+        width: 100%;
+    }
 }
 
 @media screen and (max-width: 567px) {
     .navbar-brand{
         display: none;
+    }
+    form{
+        width: 100%;
     }
 
 }
@@ -391,15 +397,17 @@ section {
     form{
         width: 100%;
     }
+    .navbar-brand{
+        display: none;
+    }
 }
 .navbar{
     padding: 2rem;
     background-color: #f5f6f7;
-}
-
-.navbar-collapse{
+    .navbar-collapse{
     align-items: center;
     justify-content: space-between;
+}
 }
 
   p{
@@ -418,8 +426,7 @@ section {
 .footer{
     background: #24262b;
     padding: 70px 0;
-}
-.row{
+    .row{
     display: flex;
     flex-wrap: wrap;
 }
@@ -428,6 +435,8 @@ section {
     padding: 0 15px;
 
 }
+}
+
 .footer-col h4{
     font-size: 18px;
     color: #fff;
@@ -447,8 +456,7 @@ section {
 .footer-col ul{
     text-decoration: none;
     list-style: none;
-}
-.footer-col ul li{
+    .footer-col ul li{
     font-size: 16px;
     text-decoration: none;
     color: #bbbbbb;
@@ -456,7 +464,6 @@ section {
     margin-bottom: 10px;
     transition: all .3s ease;
 }
-
 .footer-col ul li a:hover{
     color: #fff;
     padding-left: 6px;
@@ -476,13 +483,15 @@ transition: all .5s ease;
     color: #24262b;
     background-color: #fff;
 }
+
+}
 h3{
     text-align: center;
+   
 }
-h1{
+ h1{
     text-align: center;
 }
-
 .grid-item {
     display: flex;
     align-items: center;
