@@ -3,7 +3,6 @@
     margin: 0;
   }
   
-
 body{
     font-family: 'Times New Roman', Times, serif;
 }
@@ -362,8 +361,6 @@ body{
     }
     }
 
-    
-
 section {
     display: flex;
     flex-wrap: wrap;  article {
@@ -373,7 +370,6 @@ section {
 
   }
   
-
 @media screen and (max-width: 767px) {
     .navbar-brand{
         display: none;
