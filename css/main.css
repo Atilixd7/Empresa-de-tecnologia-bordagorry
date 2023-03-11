@@ -1,3 +1,8 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
 body {
   font-family: "Times New Roman", Times, serif;
 }
@@ -395,27 +400,6 @@ form p {
   color: #fff;
 }
 
-.nosotros img {
-  width: 600px;
-  height: 350px;
-  padding: 0px;
-}
-
-.nosotrospeque img {
-  width: 100px;
-  height: 100px;
-  padding: 0px;
-  justify-content: bottom;
-}
-
-.nosotros {
-  display: flex;
-  justify-content: center;
-}
-.nosotros h3 {
-  text-align: center;
-}
-
 section {
   display: flex;
   flex-wrap: wrap;
@@ -489,7 +473,6 @@ article img {
 }
 
 .footer-col h4::before {
-  content: "";
   position: absolute;
   left: 0;
   bottom: -10px;
@@ -519,7 +502,6 @@ article img {
 }
 
 .footer-col .social-link a {
-  display: inline-block;
   height: 40px;
   width: 40px;
   background-color: rgba(255, 255, 255, 0.2);
@@ -542,6 +524,42 @@ h3 {
 
 h1 {
   text-align: center;
+}
+
+.grid-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  transition: transform 0.3s ease-in-out;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.grid-item:hover {
+  filter: opacity(0.9);
+  transform: scale(1.04);
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-auto-rows: minmax(200px, auto);
+  gap: 20px;
+  padding: 20px;
+  grid-auto-flow: dense;
+}
+
+@media (min-width: 600px) {
+  .wide {
+    grid-template-columns: span 2;
+    grid-row: span 1;
+  }
+  .tall {
+    grid-row: span 2;
+    grid-column: span 2;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */
