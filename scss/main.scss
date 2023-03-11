@@ -347,33 +347,32 @@ body{
         padding: 7px;
         font-size: 17px;
         border: none;
-    }
-
     textarea{
         min-height: 100px;
         max-height: 200px;
         max-width: 100%;    
     }
-
+    }
     #button{
         background: #31384a;
         color: #fff;
         padding: 12px;
-    }
-
     form p{
     color: #fff;
     }
+    }
+
+    
 
 section {
     display: flex;
-    flex-wrap: wrap;
-  }
-  
-  article {
+    flex-wrap: wrap;  article {
     flex: 1;
     text-align: center;
   }
+
+  }
+  
 
 @media screen and (max-width: 767px) {
     .navbar-brand{
